@@ -11,7 +11,83 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<div class="context">
+			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		</div>
+		<div class="area" >
+            <ul class="circles">
+                    <li>
+						<?php
+							$url_to_my_attachment = "http://localhost:8888/WebCodeAura/wp-content/uploads/2023/10/smartphone.svg";
+							$attachment_id = attachment_url_to_postid($url_to_my_attachment);
+							print wp_get_attachment_image($attachment_id);
+						?>
+					</li>
+                    <li>
+						<?php
+							$url_to_my_attachment = "http://localhost:8888/WebCodeAura/wp-content/uploads/2023/10/mouse.svg";
+							$attachment_id = attachment_url_to_postid($url_to_my_attachment);
+							print wp_get_attachment_image($attachment_id);
+						?>
+					</li>
+                    <li>
+						<?php
+							$url_to_my_attachment = "http://localhost:8888/WebCodeAura/wp-content/uploads/2023/10/tablet-ipad-warm.svg";
+							$attachment_id = attachment_url_to_postid($url_to_my_attachment);
+							print wp_get_attachment_image($attachment_id);
+						?>
+					</li>
+                    <li>
+						<?php
+							$url_to_my_attachment = "http://localhost:8888/WebCodeAura/wp-content/uploads/2023/10/tablet-ipad-cold.svg";
+							$attachment_id = attachment_url_to_postid($url_to_my_attachment);
+							print wp_get_attachment_image($attachment_id);
+						?>
+					</li>
+                    <li>
+						<?php
+							$url_to_my_attachment = "http://localhost:8888/WebCodeAura/wp-content/uploads/2023/10/monitor.svg";
+							$attachment_id = attachment_url_to_postid($url_to_my_attachment);
+							print wp_get_attachment_image($attachment_id);
+						?>
+					</li>
+                    <li>
+						<?php
+							$url_to_my_attachment = "http://localhost:8888/WebCodeAura/wp-content/uploads/2023/10/laptop-warm.svg";
+							$attachment_id = attachment_url_to_postid($url_to_my_attachment);
+							print wp_get_attachment_image($attachment_id);
+						?>
+					</li>
+                    <li>
+						<?php
+							$url_to_my_attachment = "http://localhost:8888/WebCodeAura/wp-content/uploads/2023/10/laptop-cold.svg";
+							$attachment_id = attachment_url_to_postid($url_to_my_attachment);
+							print wp_get_attachment_image($attachment_id);
+						?>
+					</li>
+                    <li>
+						<?php
+							$url_to_my_attachment = "http://localhost:8888/WebCodeAura/wp-content/uploads/2023/10/keyboard.svg";
+							$attachment_id = attachment_url_to_postid($url_to_my_attachment);
+							print wp_get_attachment_image($attachment_id);
+						?>
+					</li>
+                    <li>
+						<?php
+							$url_to_my_attachment = "http://localhost:8888/WebCodeAura/wp-content/uploads/2023/10/desktop-computer.svg";
+							$attachment_id = attachment_url_to_postid($url_to_my_attachment);
+							print wp_get_attachment_image($attachment_id);
+						?>
+					</li>
+                    <li>
+						<?php
+							$url_to_my_attachment = "http://localhost:8888/WebCodeAura/wp-content/uploads/2023/10/browser-happy.svg";
+							$attachment_id = attachment_url_to_postid($url_to_my_attachment);
+							print wp_get_attachment_image($attachment_id);
+						?>
+					</li>
+            </ul>
+    	</div >
 	</header><!-- .entry-header -->
 
 	<?php webcodeaura_by_emerick_post_thumbnail(); ?>

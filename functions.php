@@ -145,6 +145,7 @@ function webcodeaura_by_emerick_scripts() {
 	wp_style_add_data( 'webcodeaura-by-emerick-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'webcodeaura-by-emerick-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'webcodeaura-header', get_template_directory_uri() . '/js/header.js', array());
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );

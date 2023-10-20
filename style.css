@@ -1,0 +1,39 @@
+/*!
+Theme Name: WebCodeAura by Emerick
+Theme URI: https://www.webcodeaura.fr
+Author: Emerick Fouchard
+Author URI: https://www.emerickfouchard.fr
+Description: Thème personnalisé pour WebCodeAura by Emerick
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: webcodeaura-by-emerick
+Tags: webcodeaura, emerick, personnalisé, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('./fonts/Noto_Sans/NotoSans-Medium.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Bold';
+    src: url('./fonts/Noto_Sans/NotoSans-Bold.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Sans Light';
+    src: url('./fonts/Noto_Sans/NotoSans-Light.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	font-family: 'Noto Sans', Arial, sans-serif;
+}

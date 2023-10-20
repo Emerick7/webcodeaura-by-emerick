@@ -1,0 +1,106 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 4.16vw 2.8vw 2vw;
+}
+
+.logo-website-container {
+    display: flex;
+    place-items: center;
+}
+
+.logo-website-container > img {
+    height: 7vw;
+    width: auto;
+    margin-right: 20px;
+}
+
+.logo-website-container > h2 {
+    font-family: 'Noto Sans Bold', Arial, sans-serif;
+    font-size: 1.5em;
+    color: #2c2c54;
+}
+
+.main-navigation {
+    display: flex;
+    place-items: center;
+}
+
+#menu-header-nav {
+    display: flex;
+}
+
+#menu-header-nav > li {
+    padding: 0 15px;
+}
+
+#menu-header-nav a {
+    font-size: 18px;
+    color: #2c2c54;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-item > a {
+    text-decoration: none;
+}
+
+#button-menu-services {
+    margin-left: 15px;
+    padding: 8px 15px;
+    font-size: 18px;
+    color: #ffda79;
+    background: #2c2c54;
+    border: none;
+    border-radius: 15px;
+}
+
+.menu-services-container {
+    position: absolute;
+}
+
+#menu-services a {
+    font-size: 18px;
+    color: #2c2c54;
+}
+
+#button-contact-header {
+    height: 130px;
+    width: 130px;
+    background: #2c2c54;
+    border: none;
+    border-radius: 100%;
+}
+
+#button-contact-header > svg {
+    position: relative;
+    bottom: 10px;
+    right: 15px;
+    height: 150px;
+    width: 150px;
+}
+
+#button-contact-header > img {
+    position: relative;
+    bottom: 115px;
+    height: 50px;
+    width: 50px;
+    filter: invert(90%) sepia(20%) saturate(257%) hue-rotate(331deg) brightness(107%) contrast(94%);
+}
+
+#text-elem-text-circle {
+    fill: #f7f1e3;
+    font-family: 'Noto Sans Bold', Arial, sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-variant-ligatures: none;
+    animation: rotate 25s linear infinite;
+    transform-origin: 250px 250px;
+}
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
